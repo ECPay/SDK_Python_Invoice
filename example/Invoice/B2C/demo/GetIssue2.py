@@ -20,8 +20,8 @@ ecpay_invoice.HashKey = 'ejCk326UnaZWKisg'
 ecpay_invoice.HashIV = 'q9jcZX8Ib9LM8wYk'
 
 # 3.寫入發票相關資訊
-ecpay_invoice.Send['InvoiceNo'] = 'IS80056018'#  廠商自訂編號
-ecpay_invoice.Send['InvoiceDate'] = '2023-09-25'#  廠商自訂編號
+ecpay_invoice.Send['InvoiceNo'] = 'IS80056018'# 發票號碼
+ecpay_invoice.Send['InvoiceDate'] = '2023-09-25'# 發票開立日期
 
 # 4. 送出
 aReturn_Info = ecpay_invoice.Check_Out()
